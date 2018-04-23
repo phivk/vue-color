@@ -5,7 +5,7 @@
       @touchmove="handleChange"
       @touchstart="handleChange">
       <div class="vc-hue-pointer" :style="{top: pointerTop, left: pointerLeft}">
-        <div role="huePicker" class="vc-hue-picker"></div>
+        <div role="huePicker" class="vc-hue-picker" v-bind:style="{ 'background-color': this.colors.hex}"></div>
       </div>  
     </div>
   </div>
@@ -48,7 +48,7 @@ export default {
         if (this.colors.hsl.h === 0 && this.pullDirection === 'right') return 0
         return -((this.colors.hsl.h * 100) / 360) + 100 + '%'
       } else {
-        return 0
+        return (4-12)/2 + "px" //(.vc-slider-hue-warp height - 12) / 2
       }
     },
     pointerLeft () {

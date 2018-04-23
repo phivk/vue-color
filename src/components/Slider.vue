@@ -61,21 +61,25 @@ export default {
 
 <style>
 .vc-slider {
+  --vc-slider-height: 4px;
   position: relative;
   width: 410px;
 }
 .vc-slider-hue-warp {
-  height: 12px;
+  height: var(--vc-slider-height);
   position: relative;
 }
 .vc-slider-hue-warp .vc-hue-picker {
   width: 14px;
   height: 14px;
-  border-radius: 6px;
+  border-radius: 7px;
   transform: translate(-7px, -2px);
   background-color: rgb(248, 248, 248);
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
-} 
+  box-shadow: 0 0 0 2px white, 0 0 0 6px rgba(230, 230, 230, 1), 0 0 0 8px white;
+}
+.vc-hue {
+  border-radius: calc(var(--vc-slider-height)/2);
+}
 .vc-slider-swatches {
   display: flex;
   margin-top: 20px;
