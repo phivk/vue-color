@@ -63,7 +63,7 @@ export default {
 .vc-slider {
   --vc-slider-height: 4px;
   position: relative;
-  width: 100%;
+  width: 410px;
 }
 .vc-slider-hue-warp {
   height: var(--vc-slider-height);

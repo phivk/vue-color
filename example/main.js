@@ -1,6 +1,5 @@
 import Vue from 'vue/dist/vue.min.js'
-// import App from './App.vue'
-import App from './Demo.vue'
+import App from './App.vue'
 
 /* eslint-disable */
 console.log(Vue.version)
