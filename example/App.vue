@@ -34,7 +34,7 @@
           <h6>Material</h6>
         </div>
         <div class="demo-item">
-          <slider-picker v-model="colors"></slider-picker>
+          <slider-picker v-model="colors" showSwatches="true"></slider-picker>
           <h6>Slider</h6>
         </div>
       </div>
