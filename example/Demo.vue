@@ -65,6 +65,7 @@ export default {
 }
 html {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f0f0f0;
 }
 
 .header-container {

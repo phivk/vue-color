@@ -40,7 +40,7 @@ export default {
   },
   data () {
     return {
-      swatches: ['.80', '.65', '.50', '.35', '.20']
+      swatches: ['.99', '.83', '.67', '.50', '.33', '.17','.00']
     }
   },
   methods: {
@@ -82,15 +82,12 @@ export default {
 }
 .vc-slider-swatches {
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .vc-slider-swatch {
-  margin-right: 1px;
+  margin-right: 2px;
   flex: 1;
   width: 20%;
-}
-.vc-slider-swatch:first-child {
-  margin-right: 1px;
 }
 .vc-slider-swatch:first-child .vc-slider-swatch-picker {
   border-radius: 2px 0px 0px 2px;
