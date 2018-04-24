@@ -69,12 +69,14 @@ import chrome from '../src/components/Chrome.vue'
 import photoshop from '../src/components/Photoshop.vue'
 
 let defaultProps = {
+  hex: '#40BFBF',
   hsl: {
     h: 180,
     s: 0.5,
     l: 0.5,
     a: 1
-  }
+  },
+  a: 1
 }
 
 export default {
