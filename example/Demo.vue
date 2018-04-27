@@ -7,7 +7,7 @@
     <div class="demo-container">
       <div class="demo-list">
         <div class="demo-item">
-          <slider-picker v-model="colors" showSwatches="true"></slider-picker>
+          <slider-picker v-model="colors"/>
         </div>
       </div>
     </div>

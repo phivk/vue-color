@@ -912,7 +912,7 @@ exports.default = {
   mixins: [_color2.default],
   props: {
     direction: String,
-    showSwatches: Boolean
+    hideSwatches: Boolean
   },
   components: {
     hue: _Hue2.default
@@ -2399,7 +2399,7 @@ var render = function() {
       1
     ),
     _vm._v(" "),
-    _vm.showSwatches
+    !_vm.hideSwatches
       ? _c(
           "div",
           { staticClass: "vc-slider-swatches" },
